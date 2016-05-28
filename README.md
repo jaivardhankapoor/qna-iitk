@@ -18,5 +18,5 @@ The site runs on a python backend with Django framework. The project is divided 
 ##Progress
 I had some difficulty setting up a custom backend for authenticating and creating user entries from the IITK database, which consisted of authenticating IITK username and password against the intranet FTP server, and scrapinf resulting user data from the Office Automation Portal to autocomplete key user entries. Hopefully the base will be ready in a few days.
 
-The frontend design is being discussed and will most probably use [MaterializeCSS] framework(materializecss.com).
+The frontend design is being discussed and will most probably use [MaterializeCSS framework](materializecss.com).
 
