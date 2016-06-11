@@ -23,4 +23,11 @@ class UserProfile(models.Model):# couldn't name it User!
     last_name = models.CharField(max_length = 20)
     state = models.CharField(max_length = 25)
     address = models.CharField(max_length = 30)
+    class Meta:
+        db_table = '"profiles"'
+
+    def get_activity(self):
+        activity = []
+        for question in self.questions:
+            activity;append((question.)
 
